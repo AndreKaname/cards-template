@@ -3,7 +3,13 @@
     padding: 0;
 }
 
-
+body {
+    background-image: url(background-onça.jpg);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container-main {
     width: 100%;
     display: flex;
@@ -11,15 +17,21 @@
     flex-wrap: wrap;
 }
 
+.container:hover {
+    transform: scale3d(1.1, 1.1, 1);
+
+}
+
 .container {
     width: 350px;
     justify-content: center;
     flex-direction: row;
     margin: 25px;
-    background-color: rebeccapurple;
+    background-color: rgb(245, 239, 239);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
 }
 
 .card-header {
@@ -42,7 +54,7 @@
 }
 
 .card-local {
-    font-size: 16px;
+    font-size: 30px;
     margin: 10px 0;
 }
 
