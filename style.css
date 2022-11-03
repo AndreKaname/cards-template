@@ -3,8 +3,16 @@
     padding: 0;
 }
 
+
+.container-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 .container {
-    width: 400px;
+    width: 350px;
     justify-content: center;
     flex-direction: row;
     margin: 25px;
